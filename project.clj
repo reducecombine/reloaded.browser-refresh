@@ -1,4 +1,4 @@
-(defproject net.vemv/reloaded.browser-refresh "0.2.2"
+(defproject net.vemv/reloaded.browser-refresh "0.3.0"
   :description "Ring middleware for automatically refreshing HTML pages"
   :url "https://github.com/reducecombine/reloaded.browser-refresh"
   :license {:name "Eclipse Public License"

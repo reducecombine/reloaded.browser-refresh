@@ -23,6 +23,8 @@
                      (deliver result true))))
       (or (pred @reference)
           (deref result timeout-ms false))
+      (catch InterruptedException _ ;; a HTTP server restart
+        true)
       (finally
         (remove-watch reference watch-key)))))
 
